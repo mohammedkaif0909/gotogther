@@ -1,6 +1,6 @@
 import type { AuthResponse, LoginCredentials, RegisterPayload, Role, User } from '../types/auth';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:4000';
+const API_BASE_URL = (import.meta.env.VITE_API_URL ?? import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/$/, '');
 
 export type ListingType = 'CAR' | 'BIKE';
 export type PaceLevel = 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED';
