@@ -1,0 +1,12 @@
+{
+  "name": "gotogether-capacitor",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm --prefix Gotogether run build && node -e \"fs.cpSync('Gotogether/dist', 'dist', { recursive: true })\""
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/cli": "^8.6.2",
+    "@capacitor/core": "^8.6.2"
+  }
+}

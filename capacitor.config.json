@@ -1,0 +1,9 @@
+{
+  "appId": "com.gotogether.app",
+  "appName": "GoTogether",
+  "webDir": "dist",
+  "server": {
+    "url": "https://gotogther.onrender.com",
+    "cleartext": false
+  }
+}
